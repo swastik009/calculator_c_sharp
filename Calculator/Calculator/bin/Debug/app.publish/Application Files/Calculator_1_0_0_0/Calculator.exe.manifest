@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Calculator.exe" version="1.0.0.0" publicKeyToken="19c2002605ac00ad" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Calculator" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Calculator.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Calculator.exe" size="188888">
+      <assemblyIdentity name="Calculator" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>jgZa9j42oXBGAUGMG+fuVEwXJwRocd+kUEjIyvUfnR8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Calculator.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=Swastik-PC\WORK" issuerKeyHash="89a067153f50ac032abc7fa32fd91fd5d912de9f" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>pz10ldork/j5ctLNTfOWOxrK95tXS1jwU3wJmjq6aRA=</DigestValue></Reference></SignedInfo><SignatureValue>bWRHq/RgteQzBI1GA9bYHqYYePCnG5ddNQrUpMjfm1xCZNwQRubGWYCQQHhTjEn528oFpvdUHtgOoaOEiN4+9z8SJDzG9FMcBwkYqHceNRDyrgxgCbKTNdVk8LnMCwjT+CaCA6YcfW8Y75RMMjAUt7ogScpobI+BljgoomXekb8=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>m9lZjTRasO/t15N5JGp5IEZahFtyhPCV8h6nvw4wPZCp5v/EBdAolxClq8CYXVeK04noITKOK8/poTO415zlw7wHGUSc5ya77ibRGwKFSD86kLPf9PfpPb9aVoi+sul0N6JPpra5l8MNkFoFmxY0d4axemnZCqW29xNLPQhSwms=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="1069ba3a9a097c53f0584b579bf7ca1a3b96f34dcdd272f9f8932bda95743da7" Description="" Url=""><as:assemblyIdentity name="Calculator.exe" version="1.0.0.0" publicKeyToken="19c2002605ac00ad" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Swastik-PC\WORK</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>sNtqayHDh4ogLro8hJexRn2j/1+x6sh9Q3ozNiMhdc0=</DigestValue></Reference></SignedInfo><SignatureValue>ERrDjlB8ITumry0d9u2Xsi4KdLNzmNA+4+kivQjnpQrYh7MuaAATRnp3pT3X0QSkCu0jSL8O4vCxZByXvCUuRCE2nDB/6oPv+s6shLEze1fV8FDwngzZ/KnH2Xy395hVQrcwK1RBR52zHOknIhdnMClE3BRGD3rkLPB9LB1Pb+c=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>m9lZjTRasO/t15N5JGp5IEZahFtyhPCV8h6nvw4wPZCp5v/EBdAolxClq8CYXVeK04noITKOK8/poTO415zlw7wHGUSc5ya77ibRGwKFSD86kLPf9PfpPb9aVoi+sul0N6JPpra5l8MNkFoFmxY0d4axemnZCqW29xNLPQhSwms=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB1TCCAT6gAwIBAgIQUWc7b2VQarxP3B5XGy1XXjANBgkqhkiG9w0BAQsFADApMScwJQYDVQQDHh4AUwB3AGEAcwB0AGkAawAtAFAAQwBcAFcATwBSAEswHhcNMTgwMTA0MTQyNTMyWhcNMTkwMTA0MjAyNTMyWjApMScwJQYDVQQDHh4AUwB3AGEAcwB0AGkAawAtAFAAQwBcAFcATwBSAEswgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAJvZWY00WrDv7deTeSRqeSBGWoRbcoTwlfIep78OMD2Qqeb/xAXQKJcQpavAmF1XitOJ6CEyjivP6aEzuNec5cO8BxlEnOcmu+4m0RsChUg/OpCz3/T36T2/WlaIvrLpdDeiT6a2uZfDDZBaBZsWNHeGsXpp2QqltvcTSz0IUsJrAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAWPPrcxcC9NuDJwPqi8rjMXWhv3Jh3jKXUtDuPXyMFIqb40ILF84olYvhPkJT8qNC9v1/OJpWRUmQzCwGAm9LUZUARqpj+XLbwAHBHa1VcqFPF+Gp1g1/MHN+plgxpRdHskOiILz+WpxsxvCLnNbee4NnFy+yOsSFSApNDp/Vr5M=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
